@@ -5,6 +5,6 @@
 !.elasticbeanstalk/*.global.yml
 
 eb-virt/
-db.sqlite3
+#db.sqlite3
 
 .idea/
