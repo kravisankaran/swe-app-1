@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-x3_!3wgl!9^loymuu4e=jo6_wypgqzp680m36-ufw2n2qmh1%5
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["polls-app-integration.us-west-2.elasticbeanstalk.com", "127.0.0.1"]
+ALLOWED_HOSTS = ["polls-app-integration.us-west-2.elasticbeanstalk.com", "127.0.0.1", "localhost"]
 
 
 
