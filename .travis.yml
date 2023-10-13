@@ -1,9 +1,12 @@
 language: python
+os: linux
 python:
-  - "3.11-dev"
+  - "3.11"
 # command to install dependencies
 script:
   - pytest tests/test.py
+  - python -m black . --check --line-length=99
+  - python -m flake8 --exclude=migrations --max-line-length=99
 install:
   - pip install -r requirements.txt
 deploy:
