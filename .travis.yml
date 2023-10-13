@@ -18,4 +18,4 @@ deploy:
   env: "polls-app-integration"
   bucket_name: "elasticbeanstalk-us-west-2-698845801092"
   on:
-    branch: master
+    branch: main
