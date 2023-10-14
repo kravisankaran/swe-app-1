@@ -9,7 +9,7 @@ script:
   #  - python -m flake8 --exclude=migrations --max-line-length=99
 
   - black --check .
-  - flake8 .
+  - flake8 --exclude=migrations .
   - coverage run --source=mysite,polls manage.py test
 install:
   - pip install -r requirements.txt
