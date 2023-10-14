@@ -4,3 +4,4 @@
 [![Coverage Status](https://coveralls.io/repos/github/kravisankaran/swe-app-1/badge.svg?branch=main)](https://coveralls.io/github/kravisankaran/swe-app-1?branch=main)
 
 Django polls application
+
