@@ -4,9 +4,9 @@ python:
   - "3.8"
 # command to install dependencies
 script:
-#  - pytest tests/test.py
-#  - python -m black . --check --line-length=99
-#  - python -m flake8 --exclude=migrations --max-line-length=99
+  #  - pytest tests/test.py
+  #  - python -m black . --check --line-length=99
+  #  - python -m flake8 --exclude=migrations --max-line-length=99
 
   - black --check .
   - flake8 .

@@ -6,3 +6,5 @@ exclude =
     env,
     venv,
     eb-virt,
+    settings,
+    migrations
