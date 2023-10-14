@@ -4,13 +4,17 @@ python:
   - "3.8"
 # command to install dependencies
 script:
-  - pytest tests/test.py
+#  - pytest tests/test.py
 #  - python -m black . --check --line-length=99
 #  - python -m flake8 --exclude=migrations --max-line-length=99
+
+  - black --check .
+  - flake8 .
+  - coverage run --source=mysite,polls manage.py test
 install:
   - pip install -r requirements.txt
 
-after_success:
+after_script:
   - python -m coveralls
 
 deploy:
